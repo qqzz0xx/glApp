@@ -1,0 +1,27 @@
+﻿Build started 2015/9/14 10:47:53.
+     1>Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Cube.cpp MyApp.cpp
+         Application.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\Application.h(103): warning C4351: new behavior: elements of array 'Application::AppInfo::title' will be default initialized
+         Cube.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\Application.h(103): warning C4351: new behavior: elements of array 'Application::AppInfo::title' will be default initialized
+         MyApp.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\Application.h(103): warning C4351: new behavior: elements of array 'Application::AppInfo::title' will be default initialized
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Release\Project2.exe" /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Release\Project2.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Release\Project2.lib" /MACHINE:X86 /SAFESEH Release\Project2.res
+         Release\Application.obj
+         Release\AppUtill.obj
+         Release\Cube.obj
+         Release\Log.obj
+         Release\Mat4.obj
+         Release\MyApp.obj
+         Release\Vec3.obj
+         Generating code
+         Finished generating code
+         Project2.vcxproj -> C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Release\Project2.exe
+     1>Done Building Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92

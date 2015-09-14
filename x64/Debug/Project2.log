@@ -1,0 +1,22 @@
+﻿Build started 2015/9/10 10:00:23.
+     1>Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Application.cpp AppUtill.cpp Log.cpp Mat4.cpp MyApp.cpp Vec3.cpp
+         Vec3.cpp
+         MyApp.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\AppUtils.h(16): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Mat4.cpp
+         Log.cpp
+         AppUtill.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\AppUtils.h(16): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Application.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\AppUtils.h(16): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Generating Code...
+     1>Done Building Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.24

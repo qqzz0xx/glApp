@@ -1,0 +1,28 @@
+﻿Build started 2015/9/9 15:24:36.
+     1>Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\x64\Release\Project2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\x64\Release\Project2.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\x64\Release\Project2.lib" /MACHINE:X64 x64\Release\Project2.res
+         x64\Release\Application.obj
+         x64\Release\Log.obj
+         x64\Release\Mat4.obj
+         x64\Release\MyApp.obj
+         x64\Release\Vec3.obj
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwInit
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwGetKey
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwSwapInterval
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwGetTime
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwSetMouseButtonCallback
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwPollEvents
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwTerminate
+     1>MyApp.obj : error LNK2001: unresolved external symbol glfwDestroyWindow
+     1>C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\x64\Release\Project2.exe : fatal error LNK1120: 13 unresolved externals
+     1>Done Building Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.11

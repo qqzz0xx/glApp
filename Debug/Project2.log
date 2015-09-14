@@ -1,0 +1,47 @@
+﻿Build started 2015/9/11 10:25:14.
+     1>Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp AppUtill.cpp Cube.cpp Mat4.cpp MyApp.cpp
+         MyApp.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\application.h(102): warning C4351: new behavior: elements of array 'Application::AppInfo::title' will be default initialized
+         Cube.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\application.h(102): warning C4351: new behavior: elements of array 'Application::AppInfo::title' will be default initialized
+         Generating Code...
+         Compiling...
+         Mat4.cpp
+         AppUtill.cpp
+         Application.cpp
+     1>c:\users\asus\documents\visual studio 2013\projects\project2\project2\application.h(102): warning C4351: new behavior: elements of array 'Application::AppInfo::title' will be default initialized
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Debug\Project2.lib" /MACHINE:X86 Debug\Project2.res
+         Debug\Application.obj
+         Debug\AppUtill.obj
+         Debug\Cube.obj
+         Debug\Log.obj
+         Debug\Mat4.obj
+         Debug\MyApp.obj
+         Debug\Vec3.obj
+     1>Cube.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "public: virtual void __thiscall Application::run(void)" (?run@Application@@UAEXXZ)
+     1>Cube.obj : error LNK2019: unresolved external symbol __imp__glewGetErrorString@4 referenced in function "public: virtual void __thiscall Application::run(void)" (?run@Application@@UAEXXZ)
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+     1>Cube.obj : error LNK2001: unresolved external symbol __imp__glewExperimental
+     1>MyApp.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+     1>MyApp.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+     1>MyApp.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+     1>MyApp.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+     1>MyApp.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+     1>MyApp.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+     1>MyApp.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+     1>C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe : fatal error LNK1120: 17 unresolved externals
+     1>Done Building Project "C:\Users\ASUS\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.28
